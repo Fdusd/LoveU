@@ -7,15 +7,16 @@ const questionPage = document.getElementById('questionPage');
 const successPage = document.getElementById('successPage');
 
 const noTexts = [
-    "NO",
-    "ARE YOU SURE?",
-    "REALLY??",
-    "SURE ABOUT THAT?",
-    "I am VERY sad...",
-    "Ok fine, STOP...",
-    "I will really be sad...",
-    "Pookie please...",
-    "I will be very very sad..."
+    "НЕТ",
+    "ТЫ СЕРЬЕЗНО?",
+    "РЕАЛЬНО??",
+    "УВЕРЕНО В ЭТОМ?",
+    "Я ОЧЕНЬ расстроен...",
+    "Ладно, хорошо, ОСТАНОВИСЬ...",
+    "Мне действительно будет грустно...",
+    "Ульяна, пожалуйста...",
+    "Я сейчас буду плакать..."
+    "..."
 ];
 
 let noClickCount = 0;
