@@ -149,3 +149,35 @@ body {
     height: auto;
     width: auto;
 }
+
+.message-btn {
+    background: linear-gradient(135deg, #f63b79 0%, #eb2599 100%);
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+    width: 8rem;
+    height: 2rem;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(246, 59, 174, 0.2);
+    transition: all 0.4s ease;
+}
+
+.message-btn:hover {
+    box-shadow: 0 6px 25px rgba(246, 59, 174, 0.5);
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.message-btn a:hover {
+    color: #f0f0f0;
+}
+
+.message{
+    font-size: 1.2rem;
+    color: #d4687a;
+    margin-bottom: 30px;
+}
