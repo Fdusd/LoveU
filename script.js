@@ -18,7 +18,6 @@ const noTexts = [
     "Я сейчас буду плакать...",
     "..."
 ];
-
 let noClickCount = 0;
 
 const initialYesWidth = 78;
