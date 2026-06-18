@@ -5,7 +5,17 @@ const catContainer = document.getElementById('catContainer');
 const question = document.querySelector('.question');
 const questionPage = document.getElementById('questionPage');
 const successPage = document.getElementById('successPage');
-
+const days = document.getElementById('date')
+const start = new Date('2026-03-10')
+function daysSince(dateString) {
+    const targetDate = new Date(dateString);
+    const currentDate = new Date();
+    const difference = currentDate.getTime() - targetDate.getTime();
+    const day = difference / (1000 * 60 * 60 * 24);
+    return Math.round(day);
+}
+console.log(daysSince(start));
+days.textContent = String(daysSince(start));
 const noTexts = [
     "НЕТ",
     "ТЫ СЕРЬЕЗНО?",
